@@ -9,7 +9,6 @@ import { connect } from 'react-redux';
 import { SettingsButton, SettingsDrawer } from '../../settings';
 import { isElectronMac } from '../../utils';
 
-import HelpButton from './HelpButton';
 import Logo from './Logo';
 
 type Props = {
@@ -38,19 +37,6 @@ class Navbar extends Component<Props, *> {
     }
 
     /**
-     * Get the array of Secondary actions of Global Navigation.
-     *
-     * @returns {ReactElement[]}
-     */
-    _getSecondaryActions() {
-        return [
-            <AkGlobalItem key = { 0 }>
-                <HelpButton />
-            </AkGlobalItem>
-        ];
-    }
-
-    /**
      * Render function of component.
      *
      * @returns {ReactElement}
@@ -65,7 +51,6 @@ class Navbar extends Component<Props, *> {
                 ] }
                 globalPrimaryActions = { this._getPrimaryActions() }
                 globalPrimaryIcon = { <Logo /> }
-                globalSecondaryActions = { this._getSecondaryActions() }
                 isElectronMac = { isElectronMac() }
                 isOpen = { false }
                 isResizeable = { false } />

@@ -22,7 +22,7 @@ type Props = {
     dispatch: Dispatch<*>;
 
     /**
-     * Default Jitsi Meet Server URL in (redux) store.
+     * Default Zocial Meet Server URL in (redux) store.
      */
     _serverURL: string;
 
@@ -35,12 +35,12 @@ type Props = {
 type State = {
 
      /**
-     * Whether the url of the Jitsi Meet Server valid.
+     * Whether the url of the Zocial Meet Server valid.
      */
     isValid: boolean;
 
     /**
-     * Default Jitsi Meet Server URL in (local) state.
+     * Default Zocial Meet Server URL in (local) state.
      */
     serverURL: string;
 };

@@ -66,7 +66,7 @@ if (isDev) {
 }
 
 /**
- * The window object that will load the iframe with Jitsi Meet.
+ * The window object that will load the iframe with Zocial Meet.
  * IMPORTANT: Must be defined as global in order to not be garbage collected
  * acidentally.
  */
@@ -151,7 +151,7 @@ function setApplicationMenu() {
 }
 
 /**
- * Opens new window with index.html(Jitsi Meet is loaded in iframe there).
+ * Opens new window with index.html(Zocial Meet is loaded in iframe there).
  */
 function createJitsiMeetWindow() {
     // Application menu.
@@ -176,7 +176,7 @@ function createJitsiMeetWindow() {
         slashes: true
     });
 
-    // Options used when creating the main Jitsi Meet window.
+    // Options used when creating the main Zocial Meet window.
     // Use a preload script in order to provide node specific functionality
     // to a isolated BrowserWindow in accordance with electron security
     // guideline.

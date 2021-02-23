@@ -21,7 +21,7 @@ type Props = {
     dispatch: Dispatch<*>;
 
     /**
-     * Default Jitsi Meet Server Timeout in (redux) store.
+     * Default Zocial Meet Server Timeout in (redux) store.
      */
     _serverTimeout: number;
 
@@ -34,12 +34,12 @@ type Props = {
 type State = {
 
      /**
-     * Whether the timeout of the Jitsi Meet Server valid.
+     * Whether the timeout of the Zocial Meet Server valid.
      */
     isValid: boolean;
 
     /**
-     * Default Jitsi Meet Server Timeout in (local) state.
+     * Default Zocial Meet Server Timeout in (local) state.
      */
     serverTimeout: number;
 };

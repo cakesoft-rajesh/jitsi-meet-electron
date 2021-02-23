@@ -1,13 +1,13 @@
-# Jitsi Meet Electron
+# Zocial Meet Electron
 
-Desktop application for [Jitsi Meet] built with [Electron].
+Desktop application for [Zocial Meet] built with [Electron].
 
 ![](screenshot.png)
 
 ## Features
 
 - [End-to-End Encryption](https://jitsi.org/blog/e2ee/) support (BETA)
-- Works with any Jitsi Meet deployment
+- Works with any Zocial Meet deployment
 - Builtin auto-updates
 - ~Remote control~ (currently disabled)
 - Always-On-Top window
@@ -35,7 +35,7 @@ For *macOS* user, you can install the application using the following command:
 brew install --cask jitsi-meet
 ```
 
-### Using it with your own Jitsi Meet installation
+### Using it with your own Zocial Meet installation
 
 :warning: The following additional HTTP headers are known to break the Electron App:
 
@@ -177,7 +177,7 @@ Apache 2. See the [LICENSE] file.
 Jitsi is built by a large community of developers, if you want to participate,
 please join [community forum].
 
-[Jitsi Meet]: https://github.com/jitsi/jitsi-meet
+[Zocial Meet]: https://github.com/jitsi/jitsi-meet
 [Electron]: https://electronjs.org/
 [latest release]: https://github.com/jitsi/jitsi-meet-electron/releases/latest
 [jitsi-meet-electron-utils]: https://github.com/jitsi/jitsi-meet-electron-utils

@@ -13,7 +13,7 @@ export default {
     /**
      * Application name.
      */
-    appName: 'Jitsi Meet',
+    appName: 'Zocial Meet',
 
     /**
     * The prefix for application protocol.
@@ -22,9 +22,9 @@ export default {
     appProtocolPrefix: 'jitsi-meet',
 
     /**
-     * The default server URL of Jitsi Meet Deployment that will be used.
+     * The default server URL of Zocial Meet Deployment that will be used.
      */
-    defaultServerURL: 'https://meet.jit.si',
+    defaultServerURL: 'https://meet.zocial.io',
 
     /**
      * The default server Timeout in seconds.
@@ -34,15 +34,15 @@ export default {
     /**
      * URL to send feedback.
      */
-    feedbackURL: 'mailto:support@jitsi.org',
+    feedbackURL: 'mailto:dev@zocial.io',
 
     /**
      * The URL of Privacy Policy Page.
      */
-    privacyPolicyURL: 'https://jitsi.org/meet/privacy',
+    privacyPolicyURL: 'https://zocial.io',
 
     /**
      * The URL of Terms and Conditions Page.
      */
-    termsAndConditionsURL: 'https://jitsi.org/meet/terms'
+    termsAndConditionsURL: 'https://zocial.io'
 };
