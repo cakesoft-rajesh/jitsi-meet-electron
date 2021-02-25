@@ -1,5 +1,5 @@
 {
-  "name": "jitsi-meet-electron",
+  "name": "zocial-meet",
   "version": "1.0.0",
   "description": "Electron application for Zocial Meet",
   "main": "./build/main.js",
@@ -17,7 +17,7 @@
     "node": ">=12.0.0"
   },
   "build": {
-    "appId": "org.jitsi.jitsi-meet",
+    "appId": "io.zocial.meet",
     "productName": "Zocial Meet",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
@@ -27,7 +27,7 @@
       "!main.js"
     ],
     "mac": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "zocial-meet.${ext}",
       "category": "public.app-category.video",
       "darkModeSupport": true,
       "hardenedRuntime": true,
@@ -51,11 +51,10 @@
       ]
     },
     "win": {
-      "artifactName": "jitsi-meet.${ext}",
+      "artifactName": "zocial-meet.${ext}",
       "target": [
         {
           "arch": [
-            "ia32",
             "x64"
           ],
           "target": "nsis"
@@ -78,10 +77,6 @@
   "pre-commit": [
     "lint"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jitsi/jitsi-meet-electron"
-  },
   "keywords": [
     "jingle",
     "webrtc",
@@ -89,7 +84,7 @@
     "electron",
     "jitsi-meet"
   ],
-  "author": "Jitsi Team <support@jitsi.org>",
+  "author": "Zocial Team",
   "readmeFilename": "README.md",
   "license": "Apache-2.0",
   "dependencies": {
